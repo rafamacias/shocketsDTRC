@@ -1,16 +1,10 @@
 {
-  "name": "newProject",
+  "name": "shocketsDTRC",
   "version": "0.1.0",
-  "description": "__________",
+  "description": "",
   "author": "Rafa Macias",
   "homepage": "http://rafamacias.com",
-  "keywords": [
-    "currency",
-    "exchange",
-    "email",
-    "currency",
-    "exchange"
-  ],
+  "keywords": [],
   "license": "MIT",
   "main": "app.js",
   "scripts": {
@@ -19,10 +13,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rafamacias/______.git"
+    "url": "git+https://github.com/rafamacias/shocketsDTRC.git"
   },
   "bugs": {
-    "url": "https://github.com/rafamacias/currency-email/issues"
+    "url": "https://github.com/rafamacias/shocketsDTRC/issues"
   },
   "dependencies": {
     "body-parser": "^1.12.4",

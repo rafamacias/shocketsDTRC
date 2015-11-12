@@ -14,7 +14,7 @@ class CustomerRepository {
 	constructor () {}
 
 	getAgentInfoByJourneyId (journeyId) {
-		let info = {
+		let defaultInfo = {
 			logo: '',
 			title : 'Here is your notification',
 			text : 'Want to see your basket, CLICK on the link now!'
@@ -23,12 +23,12 @@ class CustomerRepository {
 		switch (journeyId) {
 
 			case 9519:
-				info.text = 'apps.vejapan.com: ' + info.text;
-				return info;
+				defaultInfo.text = 'apps.vejapan.com: ' + defaultInfo.text;
+				return defaultInfo;
 				break;
 
 			default:
-				return info;
+				return defaultInfo;
 		}
 
 	}
